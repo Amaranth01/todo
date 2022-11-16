@@ -13,11 +13,11 @@ body {
     background-color: #f5f5f5;
 }
 
-#list {
+#list{
     color: #333333;
 }
 
-#check, #search {
+#check, #search, #clear  {
     color: #95d6b7;
 }
 
@@ -25,11 +25,13 @@ body {
     border: #95d6b7 solid 1px;
 }
 
-#clear {
+#delete {
     color: #dc5350;;
 }
 
-#write {
+#edit {
     color: #45bfe7;
 }
+
+
 

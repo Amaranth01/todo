@@ -1,14 +1,22 @@
-import('../../assets/css/style.css')
+import('../../assets/css/style.css');
+import('./validateButton');
+import('./editButton');
+import('./deleteButton');
 
-let todoList = document.querySelector('#list');
+let submit = document.querySelector('#submit');
+let text = document.querySelector('#text');
+let list = document.querySelector('#list');
+let clear = document.querySelector('#clear');
 
-const list = [
-    "Do 100 JavaScript Projects",
-    "Lean Node JS",
-    "Learn REACTJS",
-    "Learn GraphQL",
-];
+const TodoList = function (){
+    submit.addEventListener('click', function () {
+        let p = document.createElement('p');
+        list.appendChild(p);
+        list.innerHTML += text.value;
+    });
+    clear.addEventListener('click', function () {
+        list.remove();
+    });
+}
 
-todoList.push(list);
-
-console.log(todoList);
+TodoList();
