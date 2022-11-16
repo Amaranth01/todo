@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    background-color: #f5f5f5;
+}
+
+#list {
+    color: #333333;
+}
+
+#check, #search {
+    color: #95d6b7;
+}
+
+#search {
+    border: #95d6b7 solid 1px;
+}
+
+#clear {
+    color: #dc5350;;
+}
+
+#write {
+    color: #45bfe7;
+}
+
