@@ -1,22 +1,19 @@
-import('../../assets/css/style.css');
-import('./validateButton');
-import('./editButton');
-import('./deleteButton');
+import('../css/style.css')
+import './list';
+import {TaskList} from "./list";
 
-let submit = document.querySelector('#submit');
-let text = document.querySelector('#text');
-let list = document.querySelector('#list');
+let taskList = new TaskList();
+taskList.task();
+
+
 let clear = document.querySelector('#clear');
 
-const TodoList = function (){
-    submit.addEventListener('click', function () {
-        let p = document.createElement('p');
-        list.appendChild(p);
-        list.innerHTML += text.value;
-    });
-    clear.addEventListener('click', function () {
-        list.remove();
-    });
-}
-
-TodoList();
+// export const TodoList = function (){
+//     submit.addEventListener('click', function () {
+//         ;
+//     });
+//     clear.addEventListener('click', function () {
+//         list.remove();
+//     });
+// }
+// TodoList();

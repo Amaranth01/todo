@@ -17,21 +17,22 @@ body {
     color: #333333;
 }
 
-#check, #search, #clear  {
+#text, #clear  {
     color: #95d6b7;
 }
 
-#search {
+#text {
     border: #95d6b7 solid 1px;
 }
 
-#delete {
-    color: #dc5350;;
+.del {
+    background-color: #dc5350;;
 }
 
-#edit {
-    color: #45bfe7;
+.ok {
+    background-color: #95d6b7;
 }
 
-
-
+.edit {
+    background-color: #45bfe7;
+}
