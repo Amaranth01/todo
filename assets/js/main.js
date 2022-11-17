@@ -1,19 +1,21 @@
+import {DeleteList} from "./deleteList";
+
 import('../css/style.css')
 import './list';
 import {TaskList} from "./list";
+import './deleteList';
 
 let taskList = new TaskList();
 taskList.task();
 
-
-let clear = document.querySelector('#clear');
+let deleteList = new DeleteList();
+deleteList.deleteTask();
 
 // export const TodoList = function (){
 //     submit.addEventListener('click', function () {
 //         ;
 //     });
-//     clear.addEventListener('click', function () {
-//         list.remove();
+//
 //     });
 // }
 // TodoList();
