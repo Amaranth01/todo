@@ -10,12 +10,3 @@ taskList.task();
 
 let deleteList = new DeleteList();
 deleteList.deleteTask();
-
-// export const TodoList = function (){
-//     submit.addEventListener('click', function () {
-//         ;
-//     });
-//
-//     });
-// }
-// TodoList();
